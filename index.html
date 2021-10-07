@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/main.js" async></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <fieldset>
+        <legend>Основа</legend>
+        <label for="big">Большой гамбургер</label>
+        <input id="big" type="radio" name="basis" checked />
+        <label for="small">Маленький гамбургер</label>
+        <input id="small" type="radio" name="basis" />
+      </fieldset>
+      <fieldset>
+        <legend>Начинка</legend>
+        <label for="cheese">Сыр</label>
+        <input id="cheese" type="radio" name="stuffing" value="сыр" checked />
+        <label for="salad">Салат</label>
+        <input id="salad" type="radio" name="stuffing" value="салат" />
+        <label for="potato">Картофель</label>
+        <input id="potato" type="radio" name="stuffing" value="картофель" />
+      </fieldset>
+      <fieldset>
+        <legend>Добавки</legend>
+        <label for="seasoning">Приправа</label>
+        <input id="seasoning" type="number" name="additive" min="0" />
+        <label for="mayonnaise">Майонез</label>
+        <input id="mayonnaise" type="number" name="additive" min="0" />
+      </fieldset>
+      <div class="result"></div>
+    </div>
+  </body>
+</html>

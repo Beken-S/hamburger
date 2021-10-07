@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+fieldset {
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+label {
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.2;
+}
+legend {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+input[type="number"] {
+  width: 50px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.dish {
+  margin-top: 60px;
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.main-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 30px;
+}
+.dish-name {
+  grid-column: 1 / 3;
+  padding-left: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.dish-data {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.ingredient {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 5px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.type {
+  margin-bottom: 5px;
+  padding: 5px 5px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: lightgray;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.ingredient-data {
+  text-align: center;
+}
+.ingredient-name {
+  padding-left: 5px;
+}
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
